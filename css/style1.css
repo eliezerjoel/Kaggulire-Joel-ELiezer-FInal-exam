@@ -7,8 +7,8 @@
 .main{
     width: 100%;
     height: 100vh;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+   
     background: linear-gradient(to right, rgb(12, 64, 236), rgb(36, 238, 238));
 }
 nav{
@@ -23,7 +23,10 @@ nav{
      width: 140px;
      flex-basis: 20%;
 }
-
+#welc{
+    text-align: center;
+    color: black;
+}
 .nav-links{
     flex: 1;
     text-align: right;
